@@ -1,16 +1,16 @@
 import '../styles/styles.css'
-const Template =(props)=>{
+const Template =({image,name,price,addtoCart,item})=>{
     return(
         <div className="template_container">
             <div className="img_container">
-                <img src={props.image} alt=""/>
+                <img src={image} alt=""/>
             </div>
             <div className="details_content">
-                <div><h1 className="item_name">{props.name}</h1>
-                <h3 className="price"> ₹{props.price}</h3>
+                <div><h1 className="item_name">{name}</h1>
+                <h3 className="price"> ₹{price}</h3>
                 </div>
                 <div>
-                    <button className='add'>+</button>
+                    <button className='add'  onClick={() => addtoCart(item)}>+</button>
                 </div>
             </div>
         </div>

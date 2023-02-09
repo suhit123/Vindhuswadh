@@ -6,10 +6,12 @@ const Hotdeals= (props)=>{
  const data=props.data;
  return( 
     <div className="hot_deals_container">
-        <Carousel autoPlay infiniteLoop showArrows={false}>
+        <Carousel autoPlay infiniteLoop showArrows={false} showStatus={false} showThumbs={false} showIndicators={false} interval={1000}>
             {data.map((item)=>{
                 return(
-                <Hotdealtemplate id={item.id}
+                <Hotdealtemplate 
+                image={item.image}
+                id={item.id}
                 name={item.name}
                 price={item.price}/>);
             })}
