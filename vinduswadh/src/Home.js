@@ -14,9 +14,8 @@ const Home=()=>{
         console.log(cart);
     }
     const handleShow = () => {
-        setShowCart(true)
-      }
-    useEffect(()=>{},[setCatogary,addToCart]);
+        setShowCart(true);
+      };
 
     const [searched, setSearched] = useState("")
     const [dataResult, setdataResult] = useState([])
@@ -32,10 +31,11 @@ const Home=()=>{
             setdataResult([])
         else
             setdataResult(newFilter)
-    }
-    console.log(dataResult)
+    };
+    console.log(cart);
     return(
         <div>
+        
         <Nav showcart={handleShow}/>
         {showCart?<Cart cart_items={cart}/>: <div>
             <Hotdeals addToCart={addToCart} cat={catogary} data={data}/>

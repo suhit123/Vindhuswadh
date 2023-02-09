@@ -111,6 +111,7 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
 }
 .catogary_sel{
     font-size: 25px;
