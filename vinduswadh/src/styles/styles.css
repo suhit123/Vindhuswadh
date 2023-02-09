@@ -1,19 +1,19 @@
 .template_container{
-    width: 250px;
+    width: 290px;
     border-radius: 15px;
     box-shadow: 3px 10px 15px grey;
     margin: 20px 0px;
 }
 .img_container{
+    height: 250px;
     width: max-content;
-    
     margin-left: auto;
     margin-right: auto;
 }
 .img_container img{
     border-radius: 50%;
-    width: 230px;
-    height: 230px;
+    width: auto;
+    height: 180px;
     margin-bottom: 30px;
 }
 .details_content{
@@ -40,13 +40,13 @@
 
 /*hot deals*/
 .hot_deals_container{
-    width: 60%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
 .hot_template_container{
     width: 100%;
-    height: 400px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 3px 10px 15px grey;
     margin: 20px 0px;
@@ -55,13 +55,13 @@
 .hot_img_container{
     width: max-content;
     margin-left: auto;
-    margin-right: auto;
 }
 .hot_img_container img{
     border-radius: 50%;
     width: 300px;
     height: 300px;
     margin-bottom: 30px;
+    margin-right: 100px;
     position: relative;
     top: -40px;
 }
@@ -69,15 +69,30 @@
     display: flex;
     justify-content: space-between;
 }
+.content_details{
+    position: relative;
+    top: -50px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
 .hot_item_name{
     color: white;
     font-size: 40px;
-    margin: 0px 10px;
+    float: left;
+    margin: 0px 5vw;
 }
 .hot_price{
     color: white;
     margin: 0px 5vw;
     font-size: 35px;
+    float: left;
+}
+.itemoftheday{
+    float: left;
+    color: white;
+    margin: 0px 5vw;
+    font-size: 55px;
 }
 .hot_add{
     border: none;
@@ -91,7 +106,7 @@
 }
 
 .all_items_container{
-    width: 60%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -118,7 +133,7 @@
     margin: 20px;
 }
 .catogary_buttons{
-    width: 60%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }

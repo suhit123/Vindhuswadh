@@ -9,7 +9,8 @@ const Displayitems=(props)=>{
                 return(
                     <Template id={item.id}
                               name={item.name}
-                              price={item.price}/>
+                              price={item.price}
+                              image={item.image}/>
                 );
             }
         })}

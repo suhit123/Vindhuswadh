@@ -6,7 +6,7 @@ const Hotdeals= (props)=>{
  const data=props.data;
  return( 
     <div className="hot_deals_container">
-        <Carousel autoPlay>
+        <Carousel autoPlay infiniteLoop showArrows={false}>
             {data.map((item)=>{
                 return(
                 <Hotdealtemplate id={item.id}
