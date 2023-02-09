@@ -1,17 +1,16 @@
 import Template from "./components/template";
 import './styles/styles.css'
-const Displayitems=(props)=>{
-    const data=props.data;
-    const addtocart=(data)=>{
-        props.addTocart(data);
+const Displayitems=({addTocart,data,cat})=>{
+    const addcart=(items1)=>{
+        addTocart(items1);
     }
     return(
         <div className="all_items_container">
         {data.map((item)=>{
-            if(item.catogary===props.cat){
-                props.addTocart(item);
+            if(item.catogary===cat){
                 return(
                     <Template
+                              addcart={addcart}
                               id={item.id}
                               item={item}
                               name={item.name}

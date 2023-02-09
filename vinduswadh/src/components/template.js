@@ -1,5 +1,5 @@
 import '../styles/styles.css'
-const Template =({image,name,price,addtoCart,item})=>{
+const Template =({image,name,price,addcart,item})=>{
     return(
         <div className="template_container">
             <div className="img_container">
@@ -10,7 +10,7 @@ const Template =({image,name,price,addtoCart,item})=>{
                 <h3 className="price"> ₹{price}</h3>
                 </div>
                 <div>
-                    <button className='add'  onClick={() => addtoCart(item)}>+</button>
+                    <button className='add'  onClick={() => addcart(item)}>+</button>
                 </div>
             </div>
         </div>

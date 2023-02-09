@@ -42,7 +42,7 @@
 
 /*hot deals*/
 .hot_deals_container{
-    width: 65%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -106,7 +106,7 @@
 }
 
 .all_items_container{
-    width: 65%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
     display: grid;
@@ -133,7 +133,51 @@
     margin: 20px;
 }
 .catogary_buttons{
-    width: 65%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
+}
+/*nav*/
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+}
+.logo span{
+    color: #30748A;
+}
+.cart_img img{
+    width: 50px;
+    margin: 20px;
+}
+.cart_img button{
+    background:none;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width:1500px){
+    .hot_deals_container{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all_items_container{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .catogary_buttons{
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all_items_container{
+        width: 75%;
+        grid-template-columns: auto auto auto;
+    }
 }
