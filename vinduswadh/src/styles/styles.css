@@ -158,6 +158,20 @@
     border: none;
     cursor: pointer;
 }
+.search{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seach_field{
+    width:95%;
+    padding: 25px 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 10px 15px rgba(128, 128, 128, 0.186);
+    outline: none;
+    border-radius: 15px;
+}
 @media (max-width:1500px){
     .hot_deals_container{
         width: 75%;
