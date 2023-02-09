@@ -4,7 +4,7 @@
         "name": "dosa",
         "price": 50,
         "catogary": "food",
-        "image": "https://www.google.com/imgres?imgurl=https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa-500x375.jpg&imgrefurl=https://www.cookwithmanali.com/crispy-masala-dosa/&tbnid=OnKFrpPtv_OSwM&vet=1&docid=oYRzL5F74JyiTM&w=500&h=375&hl=en-GB&source=sh/x/im"
+        "image": "https://vismaifood.com/storage/app/uploads/public/8b4/19e/427/thumb__700_0_0_0_auto.jpg"
     },
 
     {
@@ -12,7 +12,7 @@
         "name": "idli",
         "price": 45,
         "catogary": "food",
-        "image": "https://www.google.com/imgres?imgurl=https://www.awesomecuisine.com/wp-content/uploads/2007/11/Idli-with-sambar-and-chutney.jpg&imgrefurl=https://www.awesomecuisine.com/recipes/172/idli/&tbnid=u18ZZgxAHISz_M&vet=1&docid=u69pkfnfqq6ATM&w=990&h=720&hl=en-GB&source=sh/x/im"
+        "image": "https://assets.cntraveller.in/photos/627a4112cbc04ca509426501/4:3/w_2932,h_2199,c_limit/Vegetarian%20South%20Indian%20breakfast%20thali%20-%20Idli%20vada%20sambar%20chutney%20-%20Image%20ID%202H3783R%20(RF).jpg"
     },
 
     {
@@ -20,7 +20,7 @@
         "name": "paneerbuttermasala",
         "price": 180,
         "catogary": "food",
-        "image": "https://www.google.com/imgres?imgurl=https://www.vegrecipesofindia.com/wp-content/uploads/2020/01/paneer-butter-masala-5.jpg&imgrefurl=https://www.vegrecipesofindia.com/paneer-butter-masala/&tbnid=oSiHl21mrg3k1M&vet=1&docid=xYO7qwCjR3E4-M&w=600&h=600&hl=en-GB&source=sh/x/im"
+        "image": "https://www.ruchiskitchen.com/wp-content/uploads/2020/12/Paneer-butter-masala-recipe-3-500x375.jpg"
     },
 
     {
@@ -28,7 +28,7 @@
         "name": "south indian meals",
         "price": 80,
         "catogary": "food",
-        "image": "https://www.google.com/imgres?imgurl=https://media-cdn.tripadvisor.com/media/photo-s/10/61/78/89/south-indian-meals.jpg&imgrefurl=http://www.tripadvisor.com/LocationPhotoDirectLink-g304556-d12678083-i274823305-Rajwadi_Veg_Restaurant_Egmore-Chennai_Madras_Chennai_District_Tamil_Nad.html&tbnid=xhlebbXwePZUcM&vet=1&docid=AV29Q4b6GeYiAM&w=458&h=450&hl=en-GB&source=sh/x/im"
+        "image": "https://bangalore247.in/wp-content/uploads/2021/02/South-Indian-cuisine-In-Bangalore.jpg"
     },
 
     {
@@ -36,7 +36,7 @@
         "name": "butter naan",
         "price": 35,
         "catogary": "food",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Frecipes.timesofindia.com%2Frecipes%2Fnaan%2Frs53338316.cms&psig=AOvVaw2QU1oVXP9WGxAbUY4YTArR&ust=1676016627327000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCIifh9r-h_0CFQAAAAAdAAAAABAD"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Butter_Garlic_Naan.jpg"
     },
 
     {
@@ -44,7 +44,7 @@
         "name": "parota",
         "price": 60,
         "catogary": "food",
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.toiimg.com%2Fthumb%2Fmsid-76344801%2Cwidth-400%2Cresizemode-4%2F76344801.jpg&imgrefurl=https%3A%2F%2Fm.timesofindia.com%2Flife-style%2Ffood-news%2Fas-handsoffporotta-trends-foodies-say-parota-and-roti-are-both-common-mans-foods%2Farticleshow%2F76344260.cms&tbnid=5uIUfD1o5TIrxM&vet=12ahUKEwjOmdD9_of9AhWhx6ACHcjoA14QMygAegUIARDlAQ..i&docid=mImoTle-z2SpHM&w=400&h=300&q=parota&client=safari&ved=2ahUKEwjOmdD9_of9AhWhx6ACHcjoA14QMygAegUIARDlAQ"
+        "image": "https://media.istockphoto.com/id/618764348/photo/famous-asian-flat-bread-known-as-parathas.jpg?s=612x612&w=0&k=20&c=yrz3Gn1RIHw8ohxG0uGNAU1H8wa2dB6xRli_DD3PJ6o="
     },
 
     {
